@@ -12,21 +12,11 @@
 Here is a working live demo :    ![ezgif-7-5bb47aa022](https://github.com/user-attachments/assets/803d4499-9750-4e36-b094-0cdb28ed4c26)
 
 
+### Pie_Charts
+![image](https://github.com/user-attachments/assets/0c274526-8538-482b-beec-aed355038de0)
 
-### Landing Page
-Currently it is working on all NSE (India) Stocks, BSE (India) Stocks Symbol will be added soon.
-
-![](https://iharsh234.github.io/WebApp/images/demo/web_app_face.JPG)
-
-### Query Filled Form
-![](https://iharsh234.github.io/WebApp/images/demo/demo_query.JPG)
-
-### Charts
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart1.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart2.JPG)
-![](https://iharsh234.github.io/WebApp/images/demo/demo_chart3.JPG)
-
-
+### Bar_Charts
+![image](https://github.com/user-attachments/assets/27259a2b-7d18-4ac7-ba3f-71a0d9577d0c)
 
 
 ### Bug / Feature Request
