@@ -1,17 +1,18 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
+import App from "./App.jsx";
 import "./css/index.css";
 import Highlighted from "./Highlighted.jsx";
 import Dashboard from "./Dashboard.jsx";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
-    path: "/car_analytic/",
+    path: "/",
     element: <Dashboard />,
   },
   {
-    path: "/car_analytic/highlighted",
+    path: "highlighted",
     element: <Highlighted />,
   },
 ]);
