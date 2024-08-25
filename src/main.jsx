@@ -1,8 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import "./css/index.css";
-import Highlighted from "./src/Highlighted.jsx";
-import Dashboard from "./src/Dashboard.jsx";
+import Highlighted from "./Highlighted.jsx";
+import Dashboard from "./Dashboard.jsx";
 import { createHashRouter, RouterProvider } from "react-router-dom";
 
 const router = createHashRouter([
