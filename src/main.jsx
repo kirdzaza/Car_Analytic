@@ -7,11 +7,11 @@ import { createHashRouter, RouterProvider } from "react-router-dom";
 
 const router = createHashRouter([
   {
-    path: "/",
+    path: "/car_analytic/",
     element: <Dashboard />,
   },
   {
-    path: "/highlighted",
+    path: "/car_analytic/highlighted",
     element: <Highlighted />,
   },
 ]);
