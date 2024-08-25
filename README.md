@@ -1,19 +1,16 @@
-# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
 # WebApp
 <table>
 <tr>
 <td>
-  A webapp using Quandl API to display history of stock growth in a given period of time. It helps predict the growth of stocks from the  charts of stock performace in any period of time. It helps to judge stocks, with the principle of momentum investing, which returns 1% per month on average.
+"A web app displays a list of cars in a pie chart and a bar chart. The app also allows users to add cars to a highlighted list."
 </td>
 </tr>
 </table>
 
 
 ## Demo
-Here is a working live demo :  ![ezgif-7-5bb47aa022](https://github.com/user-attachments/assets/803d4499-9750-4e36-b094-0cdb28ed4c26)
+Here is a working live demo :    ![ezgif-7-5bb47aa022](https://github.com/user-attachments/assets/803d4499-9750-4e36-b094-0cdb28ed4c26)
 
-
-## Site
 
 
 ### Landing Page
