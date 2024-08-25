@@ -1,0 +1,47 @@
+.custom-navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Larger font size for brand */
+  font-weight: bold; /* Bold brand text */
+}
+
+.nav-link {
+  font-size: 1rem; /* Consistent font size for links */
+  color: #000000; /* Dark text color for better readability */
+  font-weight: 500;
+}
+
+.nav-link.active {
+  color: #007bff; /* Highlight color for active link */
+}
+
+.nav-link.disabled {
+  color: #6c757d; /* Gray color for disabled link */
+}
+
+.dropdown-menu {
+  border-radius: 0.25rem; /* Rounded corners for dropdown */
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Subtle shadow */
+}
+
+.form-control {
+  border: 1px solid #ced4da; /* Light border for input */
+}
+
+.btn-outline-success {
+  border-color: #28a745; /* Custom border color for button */
+  color: #28a745; /* Custom text color for button */
+}
+
+.btn-outline-success:hover {
+  background-color: #28a745; /* Background color on hover */
+  color: #fff;
+}
+/* Header.css */
+.navbar-brand img {
+  height: 40px; /* Adjust as needed */
+  margin-right: 10px; /* Space between logo and brand text */
+}
