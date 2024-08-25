@@ -1,0 +1,48 @@
+/* Wrapper for the car table */
+.car-table-wrapper {
+  margin: 2% 2% 2% 2%; /* Margin left and right 10% */
+  margin-bottom: 20px;
+}
+
+/* Container for the car table with scrollable functionality */
+.car-table-container {
+  overflow-y: auto; /* Enables vertical scrolling */
+  max-height: 300px; /* Lower fixed height for the table container */
+  border: 1px solid #ddd; /* Border around the container */
+  border-radius: 5px; /* Rounded corners */
+  position: relative;
+}
+
+/* Style for the table */
+.car-table {
+  width: 100%;
+  border-collapse: collapse; /* Collapses table borders */
+}
+
+/* Style for the table headers */
+.car-table thead th {
+  position: sticky; /* Stick headers to the top */
+  top: 0;
+  background-color: #ffffff; /* Header background color */
+  z-index: 1; /* Ensures the header is above the scrollable content */
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style for the table cells */
+.car-table th,
+.car-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd; /* Border between rows */
+}
+
+.brand-row {
+  font-weight: bold;
+  background-color: #c9c9c9; /* Slightly different background for brand rows */
+}
+
+/* Align text in the cells properly */
+.car-table td {
+  text-align: left; /* Align all text to the left */
+}
