@@ -11,7 +11,7 @@ const router = createHashRouter([
     element: <Dashboard />,
   },
   {
-    path: "highlighted",
+    path: "/highlighted",
     element: <Highlighted />,
   },
 ]);
