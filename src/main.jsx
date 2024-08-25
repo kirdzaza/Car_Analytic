@@ -4,9 +4,9 @@ import App from "./App.jsx";
 import "./css/index.css";
 import Highlighted from "./Highlighted.jsx";
 import Dashboard from "./Dashboard.jsx";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Dashboard />,
