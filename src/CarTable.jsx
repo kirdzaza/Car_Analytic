@@ -20,7 +20,7 @@ const CarTable = () => {
     }
     brandModelCounts[brandName][car.Model].count += 1;
     brandModelCounts[brandName][car.Model].price += parseFloat(
-      car.Prc.replace(/,/g, "")
+      car.Prc.replace(/,/g, ""),
     );
   });
 
